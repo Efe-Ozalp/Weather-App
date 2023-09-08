@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		817AAFEE2AAB74BA00868006 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817AAFED2AAB74BA00868006 /* CalculatorViewModel.swift */; };
 		E730766C2AAB72050098B0F6 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730766B2AAB72050098B0F6 /* ShapesView.swift */; };
 		E730766E2AAB72210098B0F6 /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730766D2AAB72210098B0F6 /* CalcView.swift */; };
 		E7B8BE902AA8DCF9001C2111 /* Weather_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B8BE8F2AA8DCF9001C2111 /* Weather_AppApp.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		817AAFED2AAB74BA00868006 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 		E730766B2AAB72050098B0F6 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		E730766D2AAB72210098B0F6 /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
 		E7B8BE8C2AA8DCF9001C2111 /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				E7B8BE912AA8DCF9001C2111 /* ContentView.swift */,
 				E730766B2AAB72050098B0F6 /* ShapesView.swift */,
 				E730766D2AAB72210098B0F6 /* CalcView.swift */,
+				817AAFED2AAB74BA00868006 /* CalculatorViewModel.swift */,
 				E7B8BE932AA8DCFA001C2111 /* Assets.xcassets */,
 				E7B8BE952AA8DCFA001C2111 /* Preview Content */,
 			);
@@ -267,6 +270,7 @@
 				E7B8BE902AA8DCF9001C2111 /* Weather_AppApp.swift in Sources */,
 				E730766C2AAB72050098B0F6 /* ShapesView.swift in Sources */,
 				E730766E2AAB72210098B0F6 /* CalcView.swift in Sources */,
+				817AAFEE2AAB74BA00868006 /* CalculatorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
