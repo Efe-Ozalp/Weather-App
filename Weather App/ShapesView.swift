@@ -9,24 +9,30 @@ import SwiftUI
 
 struct ShapesView: View {
     var body: some View {
-        VStack{
-            Circle()
-                
-                .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealWidth: 100, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealHeight: 100, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
-                .background(.blue)
-            Rectangle()
-                .trim(from: 0, to: 0.5)
-                .background(.green)
-            Ellipse()
-                .stroke(.orange,lineWidth: 5)
-                .background(.brown)
-            Capsule()
-                .frame(width:300, height: 100)
-                .foregroundColor(.cyan)
-            RoundedRectangle(cornerRadius:10)
-                .frame(width:200, height:100)
-                .foregroundColor(.red)
-        }.ignoresSafeArea()
+        HStack{
+            VStack{
+                Circle()
+                    .size(width:100, height:100)
+                    .background(.blue)
+                Rectangle()
+                    .trim(from: 0, to: 0.7)
+                    .fill(.green)
+                Ellipse()
+                    .stroke(.orange,lineWidth: 5)
+                    .background(.brown)
+                Capsule()
+                    .frame(width:300, height: 100)
+                    .foregroundColor(.cyan)
+                RoundedRectangle(cornerRadius:10)
+                    .frame(width:200, height:100)
+                    .foregroundColor(.red)
+                Rectangle()
+                    .size(width:100, height:100)
+                    .fill(.blue)
+            }.ignoresSafeArea()
+        }
+        
+        
     }
 }
 
