@@ -2,7 +2,7 @@
 //  CalcView.swift
 //  Weather App
 //
-//  Created by Efe Ozalp on 9/8/23.
+//  Created by Lorenzo J. Ablis on 9/8/23.
 //
 
 import SwiftUI
@@ -24,7 +24,7 @@ struct CalcView: View {
             VStack {
                 Text("\(Calculator.displayUpdate())")
                     .frame(width:300, height:50, alignment: .trailing)
-                    .font(.system(size:75, design: .rounded))
+                    .font(.system(size:75, weight: .light))
                     .padding()
                     .foregroundColor(.white)
                 ForEach(buttons, id:\.self) { row in
