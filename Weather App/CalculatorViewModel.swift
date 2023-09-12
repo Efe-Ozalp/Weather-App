@@ -9,7 +9,7 @@ import Foundation
 
 final class CalculatorViewModel: ObservableObject {
     @Published var firstNum = "0"
-    @Published var secondNum = ""
+    @Published var secondNum = "0"
     @Published var operation = ""
     
     func displayUpdate() -> String {
@@ -21,8 +21,8 @@ final class CalculatorViewModel: ObservableObject {
         case "+", "-", "/", "X":
             self.operation = input
         case "AC":
-            self.firstNum = ""
-            self.secondNum = ""
+            self.firstNum = "0"
+            self.secondNum = "0"
             self.operation = ""
         case "%":
             if (operation == "") {
@@ -52,7 +52,7 @@ final class CalculatorViewModel: ObservableObject {
             }
         case "=":
             self.firstNum = calculate()
-            self.secondNum = ""
+            self.secondNum = "0"
             self.operation = ""
         default:
             operation == "" ? (firstNum += input) : (secondNum += input)
