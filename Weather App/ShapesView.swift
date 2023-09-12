@@ -38,6 +38,18 @@ struct ShapesView: View {
                 RoundedRectangle(cornerRadius:10)
                     .frame(width:300, height:50)
                     .foregroundColor(.blue)
+                    .overlay(
+                    Text("Click Me")
+                    .foregroundColor(.white)
+                    .font(.custom("AmericanTypewriter", size: 35))
+                    )
+                Rectangle()
+                    .trim(from:0, to: 0.5)
+                    .rotation(.degrees(-45), anchor: .center)
+                    .frame(width: 50, height: 50, alignment: .center)
+                //    .rotation(Angle(degrees: (-45), anchor:.center))
+                    //.fill(Color.yellow)
+                    .foregroundColor(.yellow)
                 
             }.ignoresSafeArea()
         }
