@@ -47,8 +47,6 @@ struct ShapesView: View {
                     .trim(from:0, to: 0.5)
                     .rotation(.degrees(-45), anchor: .center)
                     .frame(width: 50, height: 50, alignment: .center)
-                //    .rotation(Angle(degrees: (-45), anchor:.center))
-                    //.fill(Color.yellow)
                     .foregroundColor(.yellow)
                 
             }.ignoresSafeArea()
